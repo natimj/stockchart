@@ -1,1 +1,29 @@
-<h1>Home Page</h1>
+
+<head>
+<!-- <script src="http://code.highcharts.com/highcharts.js"></script> -->
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<!-- <script src="https://code.highcharts.com/stock/modules/exporting.js"></script> -->
+
+</head>
+
+<form id="form-new" method="POST" action="/" class="form-inline">
+    <div class="form-group">
+      <label for = "stock_ticker"><h3>Stock Ticker:</h3></label>
+        <input id = "stock_ticker" name="stock_ticker" type="text" class = "form-control input-lg" placeholder="YHOO">
+    </div>
+    <!-- <div class="form-group">
+      <label for = "start_date"><h3>Beginning Date:</h3></label>
+        <input id = "start_date" name="start_date" type="date" class = "form-control input-lg" placeholder="Last Name">
+    </div>
+    <div class="form-group">
+      <label for = "end_date"><h3>Beginning Date:</h3></label>
+        <input id = "end_date" name="end_date" type="date" class = "form-control input-lg" placeholder="Last Name">
+    </div> -->
+
+    <div id ='hello'></div>
+
+    <button type="button" id ="done" class="btn btn-warning btn-lg">Search</button>
+</form>
+
+<div id="container" style="width:100%; height:400px;"></div>
+
